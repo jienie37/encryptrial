@@ -26,4 +26,4 @@ def polyalphabetic_option():
         decrypted_text = vigenere_decrypt(ciphertext, keyword)
         print(f"Decrypted text: {decrypted_text}")
     else:
-        print("Invalid action. Please choose 1 or 2.")
+        print("Invalid action.")
